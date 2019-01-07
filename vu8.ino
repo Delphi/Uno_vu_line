@@ -83,8 +83,8 @@ void vu8() {
     }
   #endif
   
-  FastLED.show();
-  
+  //FastLED.show();
+  LEDShowEnable=true;
   averageReadings(0);
 
   EVERY_N_MILLISECONDS(20) {
