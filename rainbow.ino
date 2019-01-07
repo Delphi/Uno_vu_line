@@ -16,5 +16,5 @@ void rainbow(uint8_t rate) {
     rightHue = (rightHue - rate) % 255;
   }
    
-  FastLED.show();
+  //FastLED.show();
 }
