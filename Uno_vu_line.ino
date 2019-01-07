@@ -135,6 +135,7 @@ void loop() {
 
   // Run selected pattern
   switch (buttonPushCounter) {
+    LEDShowEnable = false;
     case 0:
       vu4(false, 0);
       #ifdef TWO_STRIPS
