@@ -17,4 +17,5 @@ void rainbow(uint8_t rate) {
   }
    
   //FastLED.show();
+  LEDShowEnable=true;
 }
