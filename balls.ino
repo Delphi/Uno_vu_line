@@ -53,13 +53,16 @@ void balls() {
   }
   #endif
   
-  FastLED.show();
+  //FastLED.show();
   
   //Then off for the next loop around
-  for (int i = 0; i < NUM_BALLS; i++) {
-    ledsLeft[pos[i]] = CRGB::Black;
-    #ifdef TWO_STRIPS
-      ledsRight[pos[i]] = CRGB::Black;
-    #endif
-  }
+  //for (int i = 0; i < NUM_BALLS; i++) {
+    //ledsLeft[pos[i]] = CRGB::Black;
+    //ifdef TWO_STRIPS
+      //ledsRight[pos[i]] = CRGB::Black;
+    //endif
+  //}
+  
+  //FastLED.clear(); //quicker than setting pixels to black.
+  //Use dimpixels function in master file instead.
 }
