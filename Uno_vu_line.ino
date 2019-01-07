@@ -225,6 +225,7 @@ void loop() {
   if(LEDShowEnable==true) {
     FastLED.Show();
     LEDShowEnable=false;
+    fadeToBlackBy(ledsRight, N_PIXELS, 255);
   }
 }
 
