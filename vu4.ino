@@ -66,6 +66,7 @@ void vu4(bool is_centered, uint8_t channel) {
   averageReadings(channel);
 
   //FastLED.show();
+  LEDShowEnable=true;
 }
 
 uint8_t rainbowHue2(uint8_t pixel, uint8_t num_pixels) {
