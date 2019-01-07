@@ -21,5 +21,6 @@ void twinkle() {
   #endif
   
   //FastLED.show();
+  LEDShowEnable=true;
   //delay(10); //moved to top.
 }
