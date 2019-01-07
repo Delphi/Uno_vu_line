@@ -55,6 +55,7 @@ void ripple(boolean show_background) {
   #endif
   
   //FastLED.show();
+  LEDShowEnable=true;
   //delay(50); //moved to top.
 }
 
