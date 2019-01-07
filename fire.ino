@@ -65,5 +65,5 @@ void fire() {
     }
   #endif
   
-  FastLED.show();
+  //FastLED.show();
 }
