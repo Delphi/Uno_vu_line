@@ -66,4 +66,5 @@ void fire() {
   #endif
   
   //FastLED.show();
+  LEDShowEnable=true;
 }
