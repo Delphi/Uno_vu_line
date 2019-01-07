@@ -24,4 +24,5 @@ void sinelon() {
   #endif
   
   //FastLED.show();
+  LEDShowEnable=true;
 }
