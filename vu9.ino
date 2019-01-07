@@ -24,8 +24,9 @@ void vu9() {
     #endif
     sndwave();
   }
-  FastLED.show();
-
+  //FastLED.show();
+  LEDShowEnable=true;
+  
 }
 
 void sndwave() {
