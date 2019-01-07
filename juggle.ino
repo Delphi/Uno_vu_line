@@ -25,5 +25,5 @@ void juggle() {
     }
   #endif
   
-  FastLED.show();
+  //FastLED.show();
 }
