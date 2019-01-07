@@ -71,5 +71,6 @@ void vu5(bool is_centered, uint8_t channel) {
 
   averageReadings(channel);
 
-  FastLED.show();
+  //FastLED.show();
+  LEDShowEnable=true;
 }
