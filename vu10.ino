@@ -6,7 +6,6 @@ CRGBPalette16 currentPalette;
 CRGBPalette16 targetPalette;
 
 void vu10() {
-
   EVERY_N_SECONDS(5) { // Change the target palette to a random one every 5 seconds.
     static uint8_t baseC = random8(); // You can use this as a baseline colour if you want similar hues in the next line.
 
@@ -22,8 +21,8 @@ void vu10() {
 
   EVERY_N_MILLISECONDS(20) { // FastLED based non-blocking delay to update/display the sequence.
     soundtun();
-
-    FastLED.show();
+    LEDShowEnable = true;
+    //FastLED.show();
   }
 }
 
