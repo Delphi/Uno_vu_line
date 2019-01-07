@@ -3,7 +3,8 @@
  */
 
 void ripple(boolean show_background) {
-
+  delay(50);
+  
   const float RIPPLE_FADE_RATE = 0.80;
   const uint8_t MAX_STEPS = 16;
   static uint8_t rippleColor = 0;
@@ -53,8 +54,8 @@ void ripple(boolean show_background) {
   }
   #endif
   
-  FastLED.show();
-  delay(50);
+  //FastLED.show();
+  //delay(50); //moved to top.
 }
 
 int wrap(int rippleStep) {
