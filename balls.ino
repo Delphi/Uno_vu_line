@@ -64,6 +64,6 @@ void balls() {
   //}
   
   //FastLED.clear(); //quicker than setting pixels to black.
-  //Use dimpixels function in master file instead.
+  //Use fadeToBlackBy(ledsRight, N_PIXELS, 254); function in main loop instead.
   LEDShowEnable=true;
 }
