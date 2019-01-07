@@ -3,7 +3,7 @@
  */
 
 void balls() {
-
+  
   const float H0 = 0.5;
   const int NUM_BALLS = 3;
   static float h[NUM_BALLS]; // An array of heights
@@ -65,4 +65,5 @@ void balls() {
   
   //FastLED.clear(); //quicker than setting pixels to black.
   //Use dimpixels function in master file instead.
+  LEDShowEnable=true;
 }
