@@ -3,6 +3,7 @@
  */
 
 void twinkle() {
+  delay(10);
   
   if (random(25) == 1) {
     uint16_t i = random(N_PIXELS);
@@ -19,6 +20,6 @@ void twinkle() {
     fadeToBlackBy(ledsRight, N_PIXELS, FADE_RATE);
   #endif
   
-  FastLED.show();
-  delay(10);
+  //FastLED.show();
+  //delay(10); //moved to top.
 }
