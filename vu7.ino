@@ -30,7 +30,8 @@ void vu7(boolean show_background) {
     }
   #endif
   
-  FastLED.show();
+  //FastLED.show();
+ LEDShowEnable=true;
 }
 
 void soundmems() { // Rolling average counter - means we don't have to go through an array each time.
